@@ -20,7 +20,7 @@ pipeline {
 
       stage('Checkout SCM') {
          steps{
-            git branch: 'main', url: 'https://github.com/PISTIS-Solutions/ansible-lab-guide-2.git'
+            git branch: 'main', url: 'https://github.com/PISTIS-Solutions/pistis-ansible-demo-1.git'
          }
        }
 
