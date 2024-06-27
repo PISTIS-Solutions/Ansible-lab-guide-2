@@ -27,7 +27,6 @@ pipeline {
       stage('Prepare Ansible For Execution') {
         steps {
           sh 'echo ${WORKSPACE}' 
-          sh 'sed -i ${WORKSPACE}/deploy/ansible.cfg'  
         }
      }
 
