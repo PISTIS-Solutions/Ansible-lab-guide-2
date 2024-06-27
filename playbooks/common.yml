@@ -24,7 +24,7 @@
         state: latest
 
 - name: Update LB server
-  hosts: db
+  hosts: database
   become: yes
   tasks:
     - name: Update the package index
